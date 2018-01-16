@@ -1,0 +1,7 @@
+e:\documentos\visual studio 2017\Projects\LdapConsole\LdapConsole\bin\Debug\LdapConsole.exe.config
+e:\documentos\visual studio 2017\Projects\LdapConsole\LdapConsole\bin\Debug\LdapConsole.exe
+e:\documentos\visual studio 2017\Projects\LdapConsole\LdapConsole\bin\Debug\LdapConsole.pdb
+e:\documentos\visual studio 2017\Projects\LdapConsole\LdapConsole\obj\Debug\LdapConsole.csprojResolveAssemblyReference.cache
+e:\documentos\visual studio 2017\Projects\LdapConsole\LdapConsole\obj\Debug\LdapConsole.csproj.CoreCompileInputs.cache
+e:\documentos\visual studio 2017\Projects\LdapConsole\LdapConsole\obj\Debug\LdapConsole.exe
+e:\documentos\visual studio 2017\Projects\LdapConsole\LdapConsole\obj\Debug\LdapConsole.pdb
