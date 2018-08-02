@@ -5,3 +5,10 @@ e:\documentos\visual studio 2017\Projects\LdapConsole\LdapConsole\obj\Debug\Ldap
 e:\documentos\visual studio 2017\Projects\LdapConsole\LdapConsole\obj\Debug\LdapConsole.csproj.CoreCompileInputs.cache
 e:\documentos\visual studio 2017\Projects\LdapConsole\LdapConsole\obj\Debug\LdapConsole.exe
 e:\documentos\visual studio 2017\Projects\LdapConsole\LdapConsole\obj\Debug\LdapConsole.pdb
+E:\Documentos\Visual Studio 2017\Projects\AutenticacaoLDAP\LdapConsole\bin\Debug\LdapConsole.exe.config
+E:\Documentos\Visual Studio 2017\Projects\AutenticacaoLDAP\LdapConsole\bin\Debug\LdapConsole.exe
+E:\Documentos\Visual Studio 2017\Projects\AutenticacaoLDAP\LdapConsole\bin\Debug\LdapConsole.pdb
+E:\Documentos\Visual Studio 2017\Projects\AutenticacaoLDAP\LdapConsole\obj\Debug\LdapConsole.csprojResolveAssemblyReference.cache
+E:\Documentos\Visual Studio 2017\Projects\AutenticacaoLDAP\LdapConsole\obj\Debug\LdapConsole.csproj.CoreCompileInputs.cache
+E:\Documentos\Visual Studio 2017\Projects\AutenticacaoLDAP\LdapConsole\obj\Debug\LdapConsole.exe
+E:\Documentos\Visual Studio 2017\Projects\AutenticacaoLDAP\LdapConsole\obj\Debug\LdapConsole.pdb

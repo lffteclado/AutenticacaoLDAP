@@ -33,31 +33,31 @@ namespace LdapConsole
         {
             Autentica5("uid=zimbra,cn=admins,cn=zimbra", "DrpmsNtqWu");
 
-            try
-            {
-                // Create the new LDAP connection
-                LdapDirectoryIdentifier ldi = new LdapDirectoryIdentifier("192.168.100.5", 389);
-                LdapConnection ldapConnection = new LdapConnection(ldi);
-                Console.WriteLine("LdapConnection is created successfully.");
-                ldapConnection.AuthType = AuthType.Basic;
-                ldapConnection.SessionOptions.ProtocolVersion = 3;
-                NetworkCredential nc = new NetworkCredential("uid=luisfelipe,ou=people,dc=grupovdl,dc=com,dc=br", ""); //password
-                //NetworkCredential nc = new NetworkCredential("uid=zimbra,cn=admins,cn=zimbra","DrpmsNtqWu"); //password
-                ldapConnection.Bind(nc);
-                Console.WriteLine("LdapConnection authentication success");           
+            //try
+            //{
+            //    // Create the new LDAP connection
+            //    LdapDirectoryIdentifier ldi = new LdapDirectoryIdentifier("192.168.100.5", 389);
+            //    LdapConnection ldapConnection = new LdapConnection(ldi);
+            //    Console.WriteLine("LdapConnection is created successfully.");
+            //    ldapConnection.AuthType = AuthType.Basic;
+            //    ldapConnection.SessionOptions.ProtocolVersion = 3;
+            //    NetworkCredential nc = new NetworkCredential("uid=luisfelipe,ou=people,dc=grupovdl,dc=com,dc=br", ""); //password
+            //    //NetworkCredential nc = new NetworkCredential("uid=zimbra,cn=admins,cn=zimbra","DrpmsNtqWu"); //password
+            //    ldapConnection.Bind(nc);
+            //    Console.WriteLine("LdapConnection authentication success");           
 
-                ldapConnection.Dispose();
-            }
-            catch (LdapException e)
-            {
-                Console.WriteLine("\r\nUnable to login:\r\n\t" + e.Message);
-            }
-            catch (Exception e)
-            {
-                Console.WriteLine("\r\nUnexpected exception occured:\r\n\t" + e.GetType() + ":" + e.Message);
-            }
+            //    ldapConnection.Dispose();
+            //}
+            //catch (LdapException e)
+            //{
+            //    Console.WriteLine("\r\nUnable to login:\r\n\t" + e.Message);
+            //}
+            //catch (Exception e)
+            //{
+            //    Console.WriteLine("\r\nUnexpected exception occured:\r\n\t" + e.GetType() + ":" + e.Message);
+            //}
 
-            Console.Read();
+            //Console.Read();
         }
 
         
@@ -165,7 +165,7 @@ namespace LdapConsole
         static void Autentica5(string userName, string senha)
         {
 
-            DirectoryEntry ldap = new DirectoryEntry("LDAP://zimbra.grupovdl.com.br:389/dc=cardiesel,dc=com,dc=br", userName, senha);
+            DirectoryEntry ldap = new DirectoryEntry("LDAP://zimbra.grupovdl.com.br:389/dc=grupovdl,dc=com,dc=br", userName, senha);
 
             ldap.AuthenticationType = AuthenticationTypes.FastBind;
 
